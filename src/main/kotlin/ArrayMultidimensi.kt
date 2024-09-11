@@ -18,7 +18,7 @@ fun main(args :Array<String>){
 
     var floor =1
     for (cinema in cinemas){
-        println("Floor :  $floor")
+        println("Floor : $floor")
         floor += 1
         for (array in cinema){
             for (value in array){
@@ -26,6 +26,6 @@ fun main(args :Array<String>){
             }
             println()
         }
-        println("----------------")
+        println("--------------")
     }
     }
