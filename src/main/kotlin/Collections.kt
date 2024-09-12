@@ -6,5 +6,5 @@ fun main(args: Array<String>) {
     val stringList = listOf("one", "two", "one")
     printAll(stringList)
     val stringSet = setOf("one", "two", "three")
-    printAll(stringSet)//
+    printAll(stringSet)
 }
