@@ -1,5 +1,5 @@
 fun main (args :Array<String>){
-    //Array lists (mutable) bisa d ubah
+    //Array lists (mutable) bisa diubah
     /*
     method:
         clear(), contains(), size, get() or [], add() or +=, remove() or -=,
