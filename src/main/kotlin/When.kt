@@ -11,7 +11,7 @@ fun main (args :Array<String>) {
     x = 2
     when (x) {
         1,2 -> println("Value of Xeither 1,2")
-        else -> { //note the block
+        else -> { //note the blockk
             println("x is neither 1 nor 2")
         }
     }
