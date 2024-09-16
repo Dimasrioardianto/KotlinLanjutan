@@ -14,7 +14,6 @@ fun main (args : Array <String>){
         max = b
     }
     println("Maximum of a or b is " + max)
-
     //if -  else if
     var myVar: Int = 0 //the variable is intialized with a value of 0
     if (myVar ==0) { //if the value is 0, we chnge its value to 1
