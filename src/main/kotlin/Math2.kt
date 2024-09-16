@@ -1,5 +1,5 @@
 import kotlin.math.PI
-
+//menghitung luas dan keliling lingkaran
 fun main (args: Array<String>) {
     //Advance exercise
     print("Enter the circle's radius (cm): ")
