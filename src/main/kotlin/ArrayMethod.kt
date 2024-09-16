@@ -1,14 +1,12 @@
 fun main (args :Array<String>){
     //array methods
     //sort()
-
     val simponsA = arrayOf("Homer", "Marge", "Bart", "Lisa","Meggie")
     simponsA.sort()
     for (simpon in simponsA){
         print(simpon + ' ')
     }
     print('\n')
-
     //sorted()
     val simponsB : Array<String> = arrayOf("Homer", "Marge", "Bart", "meggie")
     val simpons_sorted = simponsB.sortedArray()
@@ -16,7 +14,6 @@ fun main (args :Array<String>){
         print(simpons + ' ')
     }
     print('\n')
-
     //reverse() and reversedArray()
     val simpsonsC : Array<String> = arrayOf("Homer", "Marge", "bart", "Lisa", "Meggie")
     simpsonsC.sort()
@@ -25,7 +22,6 @@ fun main (args :Array<String>){
         print(simpson + ' ')
     }
     print('\n')
-
     //indexOf
     val simpsonsD =arrayOf("Homer", "Marge","Bart", "Lisa", "Meggie")
     val simpson = "Lisa"
