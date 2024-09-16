@@ -13,6 +13,4 @@ fun main (args : Array<String>){
     } else {
         println("You did it wrong.")
     }
-
-
 }
