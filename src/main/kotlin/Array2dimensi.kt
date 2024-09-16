@@ -8,14 +8,12 @@ fun main (args: Array<String>){
         }
         cinema +=array
     }
-
     for (array in cinema){
         for (value in array){
             print("$value")
         }
         println()
     }
-
     //filing with data
     cinema[2][2] = 1
     for (i in 1..3) {
