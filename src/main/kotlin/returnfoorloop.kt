@@ -3,7 +3,7 @@ fun main (args : Array<String>) {
 }
 fun  returnLoop(){
     var x: Int
-    println("Example")
+    println("Example of return in For-Loop")
     for(x in 1..10) {
         if(x < 5) {
             print("${x - 1} ")
@@ -12,5 +12,5 @@ fun  returnLoop(){
         }
         print("$x ")
     }
-    print("Tidak aka pernah dieksekusi")
+    print("Tidak akan pernah dieksekusi")
 }
